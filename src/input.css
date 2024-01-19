@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .trd-150{
+        @apply  rounded-xl py-1 px-3 shadow-gray-600 shadow transition delay-150 duration-300 ease-in-out w-max;
+    }
+}
